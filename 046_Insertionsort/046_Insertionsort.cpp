@@ -21,7 +21,7 @@ void input() { // procedur untuk input
 
     for (int i = 0; i < n; i++) { // Looping dengan i dimulai dari 0 hingga n
         cout << "Data ke-" << (i + 1) << ": ";
-        cin >> a[i]; // Input dari pengguna
+        cin >> arr[i]; // Input dari pengguna
     }
 }
 
@@ -50,7 +50,7 @@ void  display() {
     cout << "=================================" << endl; // Output ke layar
     cout << endl; // Output baris kosong
     for (int j = 0; j < n; j++) {
-        cout << a[j];
+        cout << arr[j];
         if (j < n - 1) {
             cout << " --->";
         }
@@ -63,7 +63,6 @@ void  display() {
 
 int main() {
     input();  // call the input function to get user input
-    BubbleSortArray(); // call the selection sort function
     display(); // display the sortde array
     system("pause");
 
