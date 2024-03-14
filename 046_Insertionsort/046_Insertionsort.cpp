@@ -43,6 +43,24 @@ void insertionSort() {  //prosedur
     }
 }
 
+void  display() {
+    cout << endl; // Output baris kosong
+    cout << "=================================" << endl; // Output ke layar
+    cout << "Element Array yang telah tersusun" << endl; // Output ke layar
+    cout << "=================================" << endl; // Output ke layar
+    cout << endl; // Output baris kosong
+    for (int j = 0; j < n; j++) {
+        cout << a[j];
+        if (j < n - 1) {
+            cout << " --->";
+        }
+    }
+    cout << endl; // Output baris kosong
+    cout << endl; // Output baris kosong
+    cout << "Jumlah pass =" << n - 1 << endl; //Output jumlah pass
+    cout << endl; // Output baris kosong
+}
+
 
 int main()
 {
