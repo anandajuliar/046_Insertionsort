@@ -63,6 +63,7 @@ void  display() {
 
 int main() {
     input();  // call the input function to get user input
+    insertionSort(); //call the insertion
     display(); // display the sortde array
     system("pause");
 
