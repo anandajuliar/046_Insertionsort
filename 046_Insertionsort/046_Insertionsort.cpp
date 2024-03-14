@@ -61,9 +61,14 @@ void  display() {
     cout << endl; // Output baris kosong
 }
 
+int main() {
+    input();  // call the input function to get user input
+    BubbleSortArray(); // call the selection sort function
+    display(); // display the sortde array
+    system("pause");
 
-int main()
-{
-
+    return 0;
 }
+
+
 
